@@ -13,3 +13,14 @@
 </p>
 
 
+# comandos
+
+to update the dependencies or venv
+```sh
+uv sync
+```
+
+to run the test output
+```sh
+uv run -m src.ducpdf.test_duc_to_pdf "/Users/larasousa/Code/PDF_DUC/ducpdf/tests/inputs/H04-ACV-EXE-001-R02 copy.pdf"
+```
